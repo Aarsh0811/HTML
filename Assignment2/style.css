@@ -1,0 +1,289 @@
+/*
+NAME: Aarsh Parimal Patel
+Student ID : 200520260
+Assignment#2
+ */
+
+
+/* adding body and setting up the padding and margin */
+body {
+    margin: 0px;
+    padding: 10px 10px;
+}
+
+/* adding fonts from the google fonts which I selected.  */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Anek Gujarati", sans-serif;
+}
+
+p,
+a,
+ul,
+li,
+form {
+    font-family: "Quicksand", monospace;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+
+figcaption {
+    font-family: "VT323", monospace;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+/* adding background image for header and adding flex to provide equal space to all elements in the header */
+
+.flex>header {
+    background-image: url('../img/bgheader.jpg');
+    height: 125px;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+.flex>header>div {
+    width: auto;
+    height: 100px;
+    flex-grow: 1;
+}
+
+
+/*styling our logo */
+.flex>header>div>a>img {
+    width: auto;
+    height: 110%;
+    padding-bottom: 12px;
+    padding-left: 10px;
+}
+
+
+/* text-align will align the text to center  */
+
+.flex>header>h1 {
+    text-align: center;
+    color: #000000;
+    font-size: 52px;
+    margin-bottom: 0px;
+    margin-top: 26px;
+    margin-left: 26px;
+    margin-right: 54px;
+    align-items: center;
+    padding-right: 90px;
+}
+
+/* display flex will display the inputted flex  */
+
+.flex>header>nav>ul {
+    margin-bottom: 0px;
+    list-style: none;
+    display: flex;
+}
+
+
+.flex>header>nav>ul>li {
+    padding: 0px 15px;
+}
+
+
+.flex>header>nav>ul>li>a {
+    color: #0e0e0e;
+    font-size: 14px;
+}
+
+
+/* the first section will be written as first child  */
+
+.flex>div>main>form>section:first-child {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    /* adding the background image */
+
+    background-image: url('../img/bg.jpg');
+}
+
+.flex>div>main>form>section:first-child>div>h2 {
+    padding-right: 25px;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+/* Other sections will be described in the format of nth-child(an+b) */
+
+/* styling our section of first pizza */
+.flex>div>main>form>section:nth-child(2)>div>figure>img {
+    width: 65%;
+    height: 65%;
+    display: flex;
+    margin: 5px;
+}
+
+
+.flex>div>main>form>section:nth-child(2) {
+    margin: 10px;
+    background-image: url('../img/bg.jpg');
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+
+    /* flex-grow will give extra space to the element it is applied on. */
+    flex-grow: 1;
+}
+
+
+.flex>div>main>form>section:nth-child(2)>div:nth-child(2) {
+    padding-right: 40px;
+    padding-left: 50px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.flex>div>main>form>section:nth-child(2)>div:nth-child(3) {
+    padding-right: 0px;
+    padding-left: 160px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+/* styling the section of second pizza */
+.flex>div>main>form>section:nth-child(3)>div>figure>img {
+    width: 65%;
+    height: 65%;
+    display: flex;
+    margin: 5px;
+}
+
+
+.flex>div>main>form>section:nth-child(3) {
+    margin: 10px;
+    background-image: url('../img/bg.jpg');
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    flex-grow: 1;
+}
+
+
+.flex>div>main>form>section:nth-child(3)>div:nth-child(2) {
+    padding-right: 70px;
+    padding-left: 40px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.flex>div>main>form>section:nth-child(3)>div:nth-child(3) {
+    padding-right: 0px;
+    padding-left: 85px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+
+/* styling the section of third pizza */
+.flex>div>main>form>section:nth-child(4)>div>figure>img {
+    width: 60%;
+    height: 60%;
+    display: flex;
+    margin: 5px;
+}
+
+
+.flex>div>main>form>section:nth-child(4) {
+    margin: 10px;
+    background-image: url('../img/bg.jpg');
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    flex-grow: 1;
+}
+
+
+.flex>div>main>form>section:nth-child(4)>div:nth-child(2) {
+    padding-right: 220px;
+    padding-left: 0px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.flex>div>main>form>section:nth-child(4)>div:nth-child(3) {
+    padding-right: 282px;
+    padding-left: 70px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+/* styling the personal information section of our page */
+.flex>div>main>form>section:nth-child(5) {
+    margin: 10px;
+    background-image: url('../img/bg.jpg');
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    flex-grow: 1;
+
+}
+
+.flex>div>main>form>section:nth-child(5)>div:first-child {
+
+    padding-left: 320px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.flex>div>main>form>section:nth-child(5)>div:nth-child(2) {
+    font-size: 20px;
+    padding-left: 100px;
+    font-weight: bold;
+}
+
+
+
+/* styling the footer */
+footer {
+    background-image: url('../img/bgheader.jpg');
+    margin-top: 10px;
+    margin-bottom: 0px;
+    height: 100px;
+    padding: 10px 10px;
+
+}
+
+.flex>footer>h2 {
+    font-size: 38px;
+    text-align: center;
+}
+
+
+/* end of the CSS */
