@@ -1,0 +1,414 @@
+/* AARSH PARIMAL PATEl
+Student ID: 200520260
+Assignment#3 */
+
+/* ading our css */
+body {
+    margin: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* setting the fonts */
+p,
+a,
+li,
+div {
+    font-family: 'Orbitron', sans-serif;
+    font-stretch: expanded;
+}
+
+header {
+    margin-top: 10px;
+    padding-top: 10px;
+    background-color: #0e0e0e;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+header>h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'DM Sans', sans-serif;
+    /*adding other fonts*/
+}
+
+main {
+    background-image: url(../img/bgmartian.jpg);
+    /*adding a background image */
+    background-size: cover;
+    position: relative;
+    /*setting the position of bg image to relative*/
+}
+
+.poster {
+    display: flex;
+}
+
+.poster>iframe {
+    padding-left: 130px;
+    height: 350px;
+    width: 650px;
+}
+
+.poster>nav>a {
+    display: flex;
+    text-decoration: none;
+    padding-top: 50px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #654321;
+    padding-left: 20px;
+
+}
+
+.poster img {
+    position: relative;
+    /*setting the position of the image to relative*/
+    height: auto;
+    width: auto;
+    display: block;
+}
+
+.postertexttop0>p {
+    font-size: 8px;
+    color: #808080;
+    position: absolute;
+    top: 58px;
+    left: 272px;
+}
+
+.postertexttop>p {
+    font-size: 12px;
+    color: #808080;
+    position: absolute;
+    top: 50px;
+    left: 280px;
+    padding-bottom: 645px;
+    font-weight: 200;
+    letter-spacing: -0.15px;
+}
+
+.postertexttop00>p {
+    font-size: 8px;
+    color: #808080;
+    position: absolute;
+    top: 53px;
+    left: 260px;
+    padding-bottom: 648px;
+    padding-left: 120px;
+    padding-top: 5px;
+    font-weight: 200;
+    letter-spacing: -0.15px;
+}
+
+.postertexttop2>p {
+    font-size: 102px;
+    position: absolute;
+    top: 70px;
+    left: 110px;
+    letter-spacing: 14px;
+    color: #ffffff;
+}
+
+.postertexttop3>p {
+    font-size: 102px;
+    padding-bottom: 20px;
+    position: absolute;
+    top: 298px;
+    left: 210px;
+    letter-spacing: 14px;
+    color: #ffffff;
+}
+
+.postertexttop4>p {
+    font-size: 102px;
+    position: absolute;
+    top: 518px;
+    left: 138px;
+    letter-spacing: 14px;
+    color: #ffffff;
+}
+
+.postertextbottom>p {
+    font-size: 22px;
+    position: absolute;
+    color: #c0c0c0;
+    bottom: 146px;
+    left: 250px;
+}
+
+.postertextbottom1>p {
+    font-size: 18px;
+    position: absolute;
+    color: #c0c0c0;
+    bottom: 115px;
+    left: 124px;
+    font-weight: bold;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    writing-mode: lr-tb;
+    letter-spacing: 2px;
+}
+
+.postertextbottom2>p {
+    font-size: 58px;
+    position: absolute;
+    bottom: 50px;
+    left: 162px;
+    color: #c0c0c0;
+    letter-spacing: 8px;
+}
+
+.postertextbottom3>p {
+    font-family: 'Barlow Condensed', sans-serif;
+    position: absolute;
+    bottom: 8px;
+    left: 104px;
+    font-size: 15px;
+    color: #808080;
+    letter-spacing: -1.05px;
+    padding-bottom: 54px;
+    font-weight: bold;
+}
+
+.postertextbottom4>p {
+    font-family: 'Barlow Condensed', sans-serif;
+    position: absolute;
+    bottom: 8px;
+    left: 240px;
+    font-size: 15px;
+    color: #808080;
+    letter-spacing: -1.05px;
+    padding-bottom: 54px;
+    font-weight: bold;
+}
+
+.postertextbottom5>p {
+    font-family: 'Barlow Condensed', sans-serif;
+    position: absolute;
+    bottom: 17px;
+    left: 89px;
+    font-size: 7px;
+    color: #808080;
+    padding-bottom: 60px;
+    font-weight: bold;
+}
+
+.postertextbottom6>p {
+    font-family: 'Barlow Condensed', sans-serif;
+    position: absolute;
+    bottom: 17px;
+    left: 97px;
+    font-size: 7px;
+    color: #808080;
+    padding-bottom: 54px;
+    font-weight: bold;
+}
+
+.postertextbottom7>p {
+    font-family: 'Barlow Condensed', sans-serif;
+    position: absolute;
+    bottom: 17px;
+    left: 214px;
+    font-size: 7px;
+    color: #808080;
+    padding-bottom: 60px;
+    font-weight: bold;
+}
+
+.postertextbottom8>p {
+    font-family: 'Barlow Condensed', sans-serif;
+    position: absolute;
+    bottom: 17px;
+    left: 233px;
+    font-size: 7px;
+    color: #808080;
+    padding-bottom: 54px;
+    font-weight: bold;
+}
+
+.postertextbottom9>p {
+    font-family: 'Barlow Condensed', sans-serif;
+    position: absolute;
+    bottom: 9px;
+    left: 192px;
+    font-size: 15px;
+    color: #808080;
+    letter-spacing: -1.05px;
+    padding-bottom: 38px;
+    font-weight: bold;
+}
+
+.postertextbottom10>p {
+    font-family: 'Barlow Condensed', sans-serif;
+    position: absolute;
+    bottom: 17px;
+    left: 162px;
+    font-size: 7px;
+    color: #808080;
+    padding-bottom: 45px;
+    font-weight: bold;
+}
+
+.postertextbottom11>p {
+    font-family: 'Barlow Condensed', sans-serif;
+    position: absolute;
+    bottom: 18px;
+    left: 158px;
+    font-size: 7px;
+    color: #808080;
+    padding-bottom: 38px;
+    font-weight: bold;
+}
+
+.postertextbottom12>p {
+    font-family: 'Barlow Condensed', sans-serif;
+    position: absolute;
+    bottom: 16px;
+    left: 238px;
+    font-size: 7px;
+    color: #808080;
+    padding-bottom: 46px;
+    font-weight: bold;
+}
+
+.postertextbottom13>p {
+    font-family: 'Barlow Condensed', sans-serif;
+    position: absolute;
+    bottom: 16px;
+    left: 261px;
+    font-size: 7px;
+    color: #808080;
+    padding-bottom: 39px;
+    font-weight: bold;
+}
+
+.postertextbottom14>p {
+    font-family: 'Barlow Condensed', sans-serif;
+    position: absolute;
+    bottom: 8px;
+    left: 268px;
+    font-size: 15px;
+    color: #808080;
+    letter-spacing: -1.05px;
+    padding-bottom: 38px;
+    font-weight: bold;
+}
+
+.postertextbottom15>p {
+    font-family: 'Barlow Condensed', sans-serif;
+    position: absolute;
+    bottom: 16px;
+    left: 336px;
+    font-size: 7px;
+    color: #808080;
+    padding-bottom: 46px;
+    font-weight: bold;
+}
+
+.postertextbottom16>p {
+    font-family: 'Barlow Condensed', sans-serif;
+    position: absolute;
+    bottom: 16px;
+    left: 352px;
+    font-size: 7px;
+    color: #808080;
+    padding-bottom: 39px;
+    font-weight: bold;
+}
+
+.postertextbottom17>p {
+    font-family: 'Barlow Condensed', sans-serif;
+    position: absolute;
+    bottom: 8px;
+    left: 359px;
+    font-size: 15px;
+    color: #808080;
+    letter-spacing: -1.05px;
+    padding-bottom: 38px;
+    font-weight: bold;
+}
+
+.postertextbottom18>p {
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 23px;
+    left: 260px;
+    letter-spacing: 3px;
+    color: #c0c0c0;
+}
+
+.postertextbottom19>p {
+    font-family: 'Barlow Condensed', sans-serif;
+    position: absolute;
+    bottom: 20px;
+    left: 123px;
+    font-size: 5px;
+    color: #808080;
+    padding-bottom: 49px;
+    font-weight: bold;
+}
+
+.postertextbottom20>p {
+    font-family: 'Bungee Inline', cursive;
+    position: absolute;
+    bottom: 19px;
+    left: 123px;
+    font-size: 6px;
+    color: #808080;
+    padding-bottom: 39px;
+}
+
+.postertextbottom21>p {
+    font-family: 'Barlow Condensed', sans-serif;
+    position: absolute;
+    bottom: 19px;
+    left: 124px;
+    font-size: 6px;
+    color: #808080;
+    padding-bottom: 38px;
+    font-weight: bold;
+}
+
+.postertextbottom22>p {
+    font-family: 'DM Sans', sans-serif;
+    position: absolute;
+    bottom: 18px;
+    left: 431px;
+    font-size: 6px;
+    color: #808080;
+    padding-bottom: 45px;
+    font-weight: bold;
+}
+
+.postertextbottom23>p {
+    font-family: 'DM Sans', sans-serif;
+    position: absolute;
+    bottom: 18px;
+    left: 422px;
+    font-size: 6px;
+    color: #808080;
+    padding-bottom: 39px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    background-color: #0e0e0e;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+footer>h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* end of the CSS */
