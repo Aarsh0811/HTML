@@ -1,0 +1,305 @@
+/* NAME: AARSH PARIMAL PATEL
+ STUDENT ID: 200520260
+ FINAL PROJECT  */
+
+
+/* adding fonts for our elements */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+input,
+label {
+    font-family: 'DM Sans', sans-serif;
+}
+
+body {
+    margin: 0px 0px;
+}
+
+/* adding css for our header and its elements to give a classy look to our header */
+header {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    overflow: hidden;
+    top: 0px;
+    height: 90px;
+    justify-content: space-between;
+    background-color: #f0f8ff;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 5px;
+    /* adding shadows to the header */
+    filter: brightness(50%);
+    filter: contrast(50%);
+    filter: drop-shadow(4px 1.5px 1.5px lightsteelblue);
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+    font-size: 24px;
+    left: 20px;
+}
+
+
+/* adding shadows and css to the header elements */
+header .img1 a img {
+    height: 80px;
+    width: 140px;
+    padding-left: 20px;
+    padding-top: 5px;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 5px 5px lightsteelblue);
+}
+
+header .img2 img {
+    height: 70px;
+    width: 340px;
+    padding-right: 20px;
+    padding-top: 5px;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(8px 8px 8px lightsteelblue);
+}
+
+
+/* adding css to all the nav elements */
+header nav ul li:nth-child(1) a {
+    text-decoration: none;
+    padding-right: 30px;
+    left: 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    color: navy;
+}
+
+header nav ul li:nth-child(2) a {
+    text-decoration: none;
+    padding-right: 30px;
+    left: 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    color: navy;
+}
+
+header nav ul li:nth-child(3) a {
+    text-decoration: none;
+    padding-right: 30px;
+    left: 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    color: navy;
+}
+
+header nav ul li:nth-child(4) a {
+    text-decoration: none;
+    left: 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    color: navy;
+}
+
+/* adding css to our footer and its elements and giving it a proper finish. */
+footer {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #f0f8ff;
+    margin-top: 5px;
+    height: 90px;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5px;
+    margin-right: 5px;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 5px 5px lightsteelblue);
+}
+
+footer .footerimg img {
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 70px;
+    width: 160px;
+}
+
+footer section {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 480px;
+}
+
+/* adding shadows to footer elements */
+footer section .sm1 {
+    padding-top: 10px;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 5px 5px lightsteelblue);
+}
+
+footer section .sm2 {
+    padding-top: 10px;
+    padding-left: 10px;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 5px 5px lightsteelblue);
+}
+
+footer section .sm3 {
+    padding-top: 10px;
+    padding-left: 10px;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 5px 5px lightsteelblue);
+}
+
+footer section .follow {
+    padding-right: 20px;
+}
+
+
+/* adding css to our body and its elements */
+body main section .philipsimg img {
+    width: 100%;
+    height: 400px;
+}
+
+body main section .philipsimg img {
+    width: 100%;
+    height: 400px;
+}
+
+body main section .bgcassette img {
+    width: 100%;
+    height: 800px;
+}
+
+body main {
+    background-color: aliceblue;
+}
+
+
+/* adding css to our webpages */
+body main section .product1 {
+    padding-left: 40px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: powderblue;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.product1 figure {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product1 figure figcaption {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.product1 figure img {
+    padding-right: 40px;
+    height: 300px;
+    width: auto;
+}
+
+main section iframe {
+    height: 300px;
+    width: 3000px;
+    padding-right: 30px;
+}
+
+.product1 figure a {
+    color: navy;
+    text-decoration: none;
+}
+
+.product1 .vid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+}
+
+body.aboutus {
+    background-color: aliceblue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+body.contact {
+    background-color: aliceblue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+body.productpage {
+    background-color: aliceblue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+body.productpage main section {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainimg img {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.description {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+}
+
+.description form button {
+    color: white;
+    background-color: #0066a1;
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+}
+
+form.contact button {
+    color: white;
+    background-color: #0066a1;
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+}
+
+
+/* adding css to form */
+form.contact input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.conus {
+    padding-left: 40px;
+}
+
+.abtus {
+    padding-left: 40px;
+}
+
+/* end of css */
