@@ -1,0 +1,91 @@
+<!-- NAME: AARSH PARIMAL PATEL -->
+<!-- STUDENT ID: 200520260 -->
+<!-- FINAL PROJECT -->
+
+<!-- This is the code for the Contact Us page of our website -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- adding the metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Final Project</title>
+    <meta name="description" content="Final Project">
+    <meta name="robots" content="noindex,nofollow">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- adding jquery link and script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="./js/custom-js.js"></script>
+</head>
+
+<!-- adding our body -->
+
+<body class="contact">
+
+    <!-- Here I have added a global header -->
+    <header id="header"></header>
+
+
+    <main>
+        <section class="conus">
+
+            <!-- adding contact information for our website -->
+            <div class="contactus">
+                <h2>CONTACT US</h2>
+
+                <p>Couldn't find what you were looking for? Contact us here.</p>
+
+                <p>Call us 888-744-5477</p>
+
+                <p>Monday to Saturday: 09:00am - 09:00pm EST</p>
+
+                <p>Sunday: 09:00am - 06:00pm EST</p>
+
+                <p>You can also connect with us on Facebook, Twitter & Instagram.</p>
+            </div>
+
+            <!-- adding form to add input elements for our contact form -->
+            <form class="contact" action="index.html" method="post">
+                <h3>Contact us through this form</h3>
+                <br>
+                <!-- adding textboxes -->
+                <label for="fn">First Name:</label>
+                <input type="text" name="firstname" id="fn" placeholder="Please enter your first name">
+                <br>
+                <label for="ln">Last Name:</label>
+                <input type="text" name="lastname" id="ln" placeholder="Please enter your last name">
+                <br>
+                <label for="mail">E-mail:</label>
+                <input type="text" name="email" id="mail" placeholder="Please enter your email address">
+                <br>
+                <!-- adding textarea -->
+                <p>Write your query below:</p>
+                <textarea name="qry" id="query" rows="8" cols="80" placeholder="Write your query here..."></textarea>
+                <br>
+                <!-- adding checkbox -->
+                <label for="newsletter">Sign-up for our newsletter</label>
+                <input type="checkbox" name="nl" id="newsletter">
+                <br>
+                <br>
+                <!-- adding submit button -->
+                <button type="button" name="submit">SUBMIT</button>
+
+                <p>*Note: It might take 2-3 business days to reply back to your queries.</p>
+
+            </form>
+
+        </section>
+    </main>
+
+    <!-- Here I have added a global footer -->
+    <footer id="footer"></footer>
+
+</body>
+
+</html>
+<!-- end of html for contact us page -->
