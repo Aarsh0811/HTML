@@ -1,0 +1,412 @@
+<!--
+NAME : Aarsh Parimal Patel
+Student ID : 200520260
+Assignment#2
+ -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- adding the metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment 2</title>
+    <meta name="description" content="Assignment 2 (pizza website)">
+    <meta name="robots" content="noindex,nofollow">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- providing the link for the fonts selected from google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anek+Gujarati:wght@700&family=Quicksand&family=VT323&display=swap"
+        rel="stylesheet">
+</head>
+<!-- I will be using flex to style my website in CSS -->
+
+<body class="flex">
+
+
+    <!-- adding our header -->
+    <header>
+
+        <!-- adding the parent element div which will work as a container -->
+        <div>
+            <!-- div 1 -->
+
+            <!-- adding the logo for the website -->
+            <a href="index.html"> <img src="./img/logo.png" alt="shop logo">
+            </a>
+
+        </div>
+        <!-- div 2 -->
+
+        <!-- adding the title of our website -->
+        <h1>RUN-HOT PIZZA</h1>
+
+        <!-- adding nav to provide links for navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="index.html">ABOUT US</a></li>
+                <li><a href="index.html">OTHER MENU</a></li>
+                <li><a href="index.html">SPECIALS</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div>
+        <!-- div 3 -->
+        <main>
+
+            <!-- adding form -->
+            <form action="index.html" method="post">
+
+                <!-- adding section for div -->
+                <section>
+                    <!-- section 1 -->
+                    <div>
+                        <!-- div 4 -->
+
+                        <!-- adding the heading for the first pizza -->
+                        <h2>PIZZA MENU</h2>
+                    </div>
+                </section>
+
+
+
+                <!-- adding section to store elements for first pizza -->
+                <section>
+                    <!-- section 3 -->
+
+                    <!-- div 7 -->
+                    <div>
+
+                        <!-- adding figure to  store the image and its caption -->
+                        <figure>
+                            <h2>MARVEL PIZZA</h2>
+                            <img src="./img/Marvel.jpeg" alt="Marvel pizza">
+                            <figcaption>Order the marvellous Marvel pizza </figcaption>
+                        </figure>
+                    </div>
+
+
+                    <div>
+
+                        <h3>Size:</h3>
+
+                        <!-- adding inputs and their labels for the first pizza -->
+                        <!-- adding radio buttons -->
+                        <input type="radio" id="sm" name="siz" value="sml">
+                        <label for="sm">Small</label>
+                        <input type="radio" id="me" name="siz" value="med">
+                        <label for="me">Medium</label>
+                        <p>
+                            <input type="radio" id="la" name="siz" value="lge">
+                            <label for="la">Large</label>
+                            <input type="radio" id="xla" name="siz" value="xlge">
+                            <label for="xla">Extra large</label>
+                        </p>
+
+
+
+                        <h3>Toppings:</h3>
+                        <!-- ading check boxes -->
+                        <input type="checkbox" id="tp01" name="jalapeno" value="topping1">
+                        <label for="tp01">Jalapeno</label>
+                        <input type="checkbox" id="tp02" name="mushrooms" value="topping2">
+                        <label for="tp02">Mushrooms</label>
+                        <p>
+                            <input type="checkbox" id="tp03" name="green pepper" value="topping3">
+                            <label for="tp03">Green pepper</label>
+                            <input type="checkbox" id="tp04" name="pepperoni" value="topping4">
+                            <label for="tp04">Pepperoni</label>
+                        </p>
+
+
+
+
+                        <h3>Sauces:</h3>
+                        <input type="checkbox" id="s01" name="HC" value="sauce">
+                        <label for="s01">Hot chilli</label>
+                        <input type="checkbox" id="s02" name="HONEYGARLIC" value="sauce">
+                        <label for="s02">Citrus</label>
+                        <p>
+                            <input type="checkbox" id="s03" name="Sweet" value="sauce">
+                            <label for="s03">Sweet</label>
+                            <input type="checkbox" id="s04" name="THAI" value="sauce">
+                            <label for="s04">Regular</label>
+                        </p>
+
+                    </div>
+
+                    <div>
+
+                        <h3>MORE OPTIONS:</h3>
+                        <!-- adding radio buttons -->
+                        <input type="radio" id="de" name="dpper" value="wid">
+                        <label for="de">With Dipper</label>
+                        <p>
+                            <input type="radio" id="wde" name="dpper" value="dip">
+                            <label for="wde">Without Dipper</label>
+                        </p>
+                        <!-- adding text box, number and checkbox -->
+                        <input type="text" id="tad" name="addcomm" placeholder="Additional comments" required
+                            maxlength="80">
+
+                        <h2><input type="checkbox" id="orn" name="ordernow" value="ORDER">
+                            <label for="orn">ADD TO BAG</label>
+                        </h2>
+
+
+                        <h2><label for="np">QUANTITY:</label>
+                            <input type="number" id="np" name="noofpizzas" value="0" min="0" max="20">
+                        </h2>
+
+                    </div>
+                    <!-- end of the first pizza section -->
+                </section>
+
+
+
+                <!-- section for another pizza -->
+                <section>
+                    <!-- section 4 -->
+                    <!-- div 9 -->
+                    <div>
+
+                        <!-- adding figure and heading for second pizza -->
+                        <figure>
+                            <h2>PEPONIT PIZZA</h2>
+                            <img src="./img/Peponit.jpg" alt="Peponit pizza">
+                            <figcaption>Order the extraordinary peponit pizza</figcaption>
+                        </figure>
+
+                    </div>
+
+                    <div>
+
+                        <h3>Size:</h3>
+                        <!-- adding radio buttons -->
+                        <input type="radio" id="sma" name="si" value="sml">
+                        <label for="sma">Small</label>
+                        <input type="radio" id="medi" name="si" value="med">
+                        <label for="medi">Medium</label>
+                        <p>
+                            <input type="radio" id="larg" name="si" value="lge">
+                            <label for="larg">Large</label>
+                            <input type="radio" id="xlarg" name="si" value="xlge">
+                            <label for="xlarg">Extra large</label>
+                        </p>
+
+
+
+                        <h3>Toppings:</h3>
+                        <!-- adding checkbox -->
+                        <input type="checkbox" id="tp001" name="jalapeno" value="topping1">
+                        <label for="tp001">Jalapeno</label>
+                        <input type="checkbox" id="tp002" name="mushrooms" value="topping2">
+                        <label for="tp002">Brown mushrooms</label>
+                        <p>
+                            <input type="checkbox" id="tp003" name="green pepper" value="topping3">
+                            <label for="tp003">Green pepper</label>
+                            <input type="checkbox" id="tp004" name="pepperoni" value="topping4">
+                            <label for="tp004">Pepper</label>
+                        </p>
+
+
+
+                        <h3>Sauces:</h3>
+                        <input type="checkbox" id="s001" name="GP" value="sauce">
+                        <label for="s001">Ghost pepper</label>
+                        <input type="checkbox" id="s002" name="CITRUS" value="sauce">
+                        <label for="s002">Citrus</label>
+                        <p>
+                            <input type="checkbox" id="s003" name="MILD" value="sauce">
+                            <label for="s003">Mild</label>
+                            <input type="checkbox" id="s004" name="MAYO" value="sauce">
+                            <label for="s004">Mayo</label>
+                        </p>
+
+
+                    </div>
+
+
+                    <div>
+                        <h3>MORE OPTIONS:</h3>
+                        <!-- adding radio button , textbox and checkbox and number -->
+                        <input type="radio" id="dP" name="dpper" value="widP">
+                        <label for="dP">With Dipper</label>
+                        <p>
+                            <input type="radio" id="wdP" name="dpper" value="dipP">
+                            <label for="wdP">Without Dipper</label>
+                        </p>
+                        <input type="text" id="tade" name="addcomm" placeholder="Additional comments" required
+                            maxlength="80">
+
+
+                        <h2> <input type="checkbox" id="orno" name="ordernow" value="ORDER">
+                            <label for="orno">ADD TO BAG</label>
+                        </h2>
+
+
+                        <h2><label for="nopi">QUANTITY:</label>
+                            <input type="number" id="nopi" name="nofpizzas" value="0" min="0" max="20">
+                        </h2>
+
+
+                    </div>
+
+                </section>
+
+
+
+
+
+                <!-- adding section for third pizza -->
+                <section>
+                    <!-- section 4 -->
+
+                    <div>
+
+                        <figure>
+                            <h2>REDONTOP PIZZA</h2>
+                            <!-- adding image of pizza -->
+                            <img src="./img/Redontop.jpg" alt="Redontop pizza">
+                            <figcaption>Order the amazing Redontop pizza </figcaption>
+                        </figure>
+
+                    </div>
+
+
+                    <div>
+                        <h3>Size:</h3>
+                        <!-- adding radio button -->
+                        <input type="radio" id="s00" name="sizz" value="sml">
+                        <label for="s00">Small</label>
+                        <input type="radio" id="m00" name="sizz" value="med">
+                        <label for="m00">Medium</label>
+                        <p>
+                            <input type="radio" id="l00" name="sizz" value="lge">
+                            <label for="l00">Large</label>
+                            <input type="radio" id="xl00" name="sizz" value="xlge">
+                            <label for="xl00">Extra large</label>
+                        </p>
+
+
+                        <h3>Toppings:</h3>
+                        <input type="checkbox" id="tp0001" name="pepperoni" value="topping1">
+                        <label for="tp0001">Pepperoni</label>
+                        <input type="checkbox" id="tp0002" name="olives" value="topping2">
+                        <label for="tp0002">Olives</label>
+                        <p>
+                            <input type="checkbox" id="tp0003" name="green pepper" value="topping3">
+                            <label for="tp0003">Green pepper</label>
+                            <input type="checkbox" id="tp0004" name="ham" value="topping4">
+                            <label for="tp0004">Ham</label>
+                        </p>
+
+
+                        <h3>Sauces:</h3>
+                        <input type="checkbox" id="s0001" name="SALSA" value="sauce">
+                        <label for="s0001">Salsa</label>
+                        <input type="checkbox" id="s0002" name="CITRUS" value="sauce">
+                        <label for="s0002">Citrus </label>
+                        <p>
+                            <input type="checkbox" id="s0003" name="MEDIUMHOT" value="sauce">
+                            <label for="s0003">Medium hot</label>
+                            <input type="checkbox" id="s0004" name="MAYO" value="sauce">
+                            <label for="s0004">Mayo</label>
+                        </p>
+
+                    </div>
+
+                    <div>
+                        <h3>MORE OPTIONS:</h3>
+                        <input type="radio" id="dPP" name="dpper" value="widPP">
+                        <label for="dPP">With Dipper</label>
+                        <p>
+                            <input type="radio" id="wdPP" name="dpper" value="dipPP">
+                            <label for="wdPP">Without Dipper</label>
+                        </p>
+
+
+                        <input type="text" id="tadee" name="addcomm" placeholder="Additional comments" required
+                            maxlength="80">
+                        <h2><input type="checkbox" id="ornow" name="ordernow" value="ORDER">
+                            <label for="ornow">ADD TO BAG</label>
+                        </h2>
+                        <h2><label for="npi">QUANTITY:</label>
+                            <input type="number" id="npi" name="nfpizzas" value="0" min="0" max="20">
+                        </h2>
+
+                    </div>
+                </section>
+
+
+                <section>
+                    <!-- section 5 -->
+
+                    <div>
+                        <!-- div 13 -->
+
+
+                        <h3>PERSONAL INFORMATION:</h3>
+                    </div>
+                    <div>
+                        <p>
+                            <label for="fn">FIRST NAME:</label>
+                            <input type="text" id="fn" name="firstname" placeholder="Enter your first name" required
+                                maxlength="20">
+                        </p>
+                        <p>
+                            <label for="fn">LAST NAME:</label>
+                            <input type="text" id="ln" name="lastname" placeholder="Enter your last name" required
+                                maxlength="20">
+                        </p>
+                        <p>
+                            <label for="em">EMAIL:</label>
+                            <input type="text" id="em" name="email" placeholder="Enter valid email address" required
+                                maxlength="30">
+                        </p>
+                        <p>
+                            <label for="ph">CONTACT NUMBER:</label>
+                            <input type="text" id="ph" name="phno" placeholder="Enter your 10 digit phone number"
+                                required maxlength="10">
+                        </p>
+                        <p>
+                            <label for="add">ADDRESS:</label>
+                            <input type="text" id="add" name="address" placeholder="Enter your Address" required
+                                maxlength="100">
+                        </p>
+                        <p>
+                            <label for="ord">YOUR ORDER IS FOR:</label>
+                            <select id="ord" name="ord">
+                                <option value="Dine-IN">DINE-IN</option>
+                                <option value="Take-Out">TAKE-OUT</option>
+
+                            </select>
+                        </p>
+
+                        <!-- adding submit button to submit information -->
+                        <input type="submit" id="co" name="CHECKOUT" value="CHECKOUT">
+
+                    </div>
+                </section>
+            </form>
+        </main>
+    </div>
+
+    <!-- adding footer -->
+    <footer>
+        <h2>THANKS FOR VISITING OUR PAGE!</h2>
+    </footer>
+
+</body>
+
+</html>
+<!-- end of the html -->
